@@ -1,0 +1,104 @@
+
+<! DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+  <header>
+    <meta charset="utf-8">
+    <title>FreeCodeCamp</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Old+Standard+TT&family=Sacramento&display=swap" rel="stylesheet">
+  </header>
+
+  <body>
+  <h1 id="title">BD Food Survey</h1>
+  <p id="description">To know food habit of Bangladeshi community.</p>
+
+  <form id="survey-form">
+
+    <p>Please fill out this Survey Form given bellow:</p>
+    <label for="name" id="name-label">Name</label>
+    <input id="name" type="text" name="name" placeholder="Please enter your name" required></input>
+  <br>
+   <br>
+  <label for="email" id="email-label">Email</label>
+    <input id="email" type="email" name="email" placeholder="Please enter your email" required ></input>
+    <br>
+    <br>
+  <label for="number" id="number-label">Age</label>
+    <input id="number" type="number" name="number" placeholder="Age" min="18" max="100" required></input>
+<br>
+<br>
+<label for="dropdown">Select your Gender</label>
+<select id="dropdown">
+  <option value="male">Male</option>
+  <option value="fimale">Fimale</option>
+  <option value="common">Common</option>
+</select>
+<br>
+<br>
+<lable >Please chose any Meal type</lable>
+<br>
+<input id="radio-button" type="radio" name="meal" value="breakfast"></input>
+<lable for="radio-button">Breakfast</lable>
+<br>
+<input id="radio-button" type="radio" name="meal" value="lunch"></input>
+<lable for="radio-button">Lunch</lable>
+<br>
+<input id="radio-button" type="radio" name="meal" value="dinner"></input>
+<lable for="radio-button">Dinner</lable>
+<br>
+<br>
+<label>Please chose food, you like most for breakfast <br></label>
+<input type="checkbox" name="breakfast" value="rice"></>
+<label>Rice with bhorta and dal </label><br>
+<input type="checkbox" name="breakfast" value="KhichoreOne"></>
+<label>Khichore with Beef</label><br>
+<input type="checkbox" name="breakfast" value="khichoreTwo"></>
+<label>Khichure with omlet</label><br>
+<input type="checkbox" name="breakfast" value="rutiOne"></>
+<lable>Ruti with vegetable</lable><br>
+<input type="checkbox" name="breakfast" value="rutiTwo"></>
+<lable>Ruti with omlet</lable><br>
+<br>
+
+<label>Please chose food, you like most for Lunch <br></label>
+<input type="checkbox" name="lunch" value="riceOne"></>
+<label>Rice with bhorta and dal </label><br>
+<input type="checkbox" name="lunch" value="riceTwo"></>
+<label>Rice with Beef, vegetable and dal</label><br>
+<input type="checkbox" name="lunch" value="riceThree"></>
+<label>Rice with omlet and vegetable</label><br>
+<input type="checkbox" name="lunch" valunchlue="rutiOne"></>
+<label>Ruti with vegetable and beef</label><br>
+<input type="checkbox" name="lunch" value="rutiTwo"></>
+<label>Ruti with omlet and vegetable</label><br>
+<br>
+<label>Please chose food, you like most for dinner <br></label>
+<input type="checkbox" name="dinner" value="rice"></>
+<lable>Rice with vegetable and dal </lable><br>
+<input type="checkbox" name="dinner" value="rutiOne"></>
+<label>Ruti with vegetable</label><br>
+<input type="checkbox" name="dinner" value="rutiTwo"></>
+<label>Ruti with omlet</label><br>
+<br>
+
+<h4>Please leave your comments</h4>
+<textarea type="text" row="15" cols="30"></textarea>
+<br>
+<br>
+  <label for="submit">Please click to </label>
+  <input id="submit" type="submit" value="Submit"></input>
+
+  </form>
+
+
+
+
+</body>
+<footer>
+  &copy;foodSurvey.org
+</footer>
+
+
+</html>

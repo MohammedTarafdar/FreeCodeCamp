@@ -1,0 +1,35 @@
+
+body{
+  background-color: #e9e2d0;
+  border-style: solid;
+  font-family: 'Old Standard TT', serif;
+  line-height: 1.4;
+  margin: 0px 400px;
+  width: 600px;
+
+}
+
+footer{
+  background-color: #5b5656;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+#title{
+  background-color: #5b5656;
+  color: white;
+  font-family: cursive;
+  padding: 15px;
+  text-align: center;
+}
+
+#description{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 20;
+  text-align: center;
+}
+
+#survey-form{
+  padding: 10px;
+}
