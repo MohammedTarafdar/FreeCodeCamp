@@ -1,0 +1,85 @@
+
+body{
+
+}
+#header-img{
+  height: 90px;
+  width: 120px;
+
+}
+
+header{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+nav{
+  background-color: #35495e;
+  width: 100%;
+
+}
+
+.heading{
+  text-align: center;
+}
+
+.massage{
+  float: left;
+  margin: 20px 20px;
+  width: 25%;
+  text-align: center;
+}
+
+.reg-form{
+  float: right;
+  margin: 20px 20px;
+}
+
+#home{
+  height: 400px;
+
+
+
+}
+
+#product{
+
+}
+
+.product-pic{
+  height: "250";
+  width: "300";
+}
+
+#about-us{
+  height: 400px;
+}
+
+#form{
+  margin: 20px 20px ;
+  float: left;
+}
+
+.com-sms{
+  float: right;
+  width: 50%;
+  font-size: 24px;
+}
+
+#footer-link{
+  padding: 20px;
+}
+
+.dev-pic{
+  border-radius: 50%
+
+}
