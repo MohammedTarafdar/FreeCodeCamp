@@ -1,0 +1,46 @@
+
+
+#main-doc{
+  height: 100%;
+  width: 75%%;
+}
+
+#navbar{
+  position: fixed:
+  height: 100px;
+  width: 300px;
+  min-width: 300px;
+
+  top: 0;
+  left:0;
+  color: black:
+  padding: 75px; 0px;
+}
+
+#doc-writing{
+  width: 75%;
+
+}
+
+header{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+code {
+    background-color: #eee;
+    border-radius: 3px;
+    font-family: courier, monospace;
+    padding: 0 3px;
+}
+
+a{
+  text-decoration:none;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+ 
